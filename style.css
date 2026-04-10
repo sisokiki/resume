@@ -189,3 +189,70 @@ body {
     transform: translateY(0);
     pointer-events: auto;
 }
+
+/* --- Refined, Smoother Button Hovers --- */
+
+/* Make sure the transition is smooth */
+.btn-solid {
+    transition: all 0.3s ease-in-out !important;
+}
+
+/* GitHub Button: Subtle lighten instead of a harsh white flash */
+.btn-solid[href*="github.com"]:hover {
+    background: #334155 !important; /* Lighter slate gray */
+    color: #ffffff !important;      /* Keep text white */
+    border-color: #475569 !important;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.15); /* Very soft silver glow */
+}
+
+/* LinkedIn Button: Rich brand blue glow */
+.btn-solid[href*="linkedin"]:hover {
+    background: #2563eb !important; /* Slightly darker/richer blue */
+    color: #ffffff !important;
+    border-color: #2563eb !important;
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);
+}
+
+/* Resume Button: Rich emerald glow */
+.btn-solid[href*=".pdf"]:hover {
+    background: #059669 !important; /* Slightly deeper emerald */
+    color: #ffffff !important;
+    border-color: #059669 !important;
+    box-shadow: 0 0 15px rgba(16, 185, 129, 0.4);
+}
+
+/* LeetCode Button: Keep the subtle orange */
+.btn-solid[href*="leetcode"]:hover {
+    background: rgba(255, 161, 22, 0.2) !important; /* Transparent orange fill */
+    color: #FFA116 !important;
+    border-color: #FFA116 !important;
+    box-shadow: 0 0 15px rgba(255, 161, 22, 0.3);
+}
+
+.btn-solid i {
+    font-size: 1rem;
+}
+
+@media (max-width: 480px) {
+    .flex.justify-center.gap-10 {
+        gap: 2rem !important;
+    }
+}
+
+/* --- Force Terminal Text to Stay Left-Aligned on All Screens --- */
+.terminal-window, 
+.terminal-body {
+    text-align: left !important;
+}
+
+/* Ensure the log lines wrap correctly but stay aligned */
+.log-lines {
+    text-align: left !important;
+    white-space: normal; /* Allows long text to wrap to the next line naturally */
+}
+
+/* --- ASCII Art Line-Height Fix --- */
+.whitespace-pre {
+    line-height: 1.1 !important;
+    letter-spacing: 0px !important;
+}
