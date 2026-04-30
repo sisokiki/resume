@@ -1,431 +1,247 @@
 # 🚀 Souvik Mishra - Personal Resume Portfolio
 
-A modern, interactive resume website showcasing a Java Backend Developer's skills, projects, and experience. Built with clean HTML, responsive CSS, and interactive JavaScript animations.
+![HTML](https://img.shields.io/badge/HTML-76.7%25-orange)
+![CSS](https://img.shields.io/badge/CSS-17.3%25-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-6%25-yellow)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-**🌐 Live Demo:** [View Resume](https://github.com/sisokiki/resume)
+A modern, interactive resume website showcasing a **Java Backend Developer** with expertise in **Spring Boot, REST APIs, and database-driven applications**.
+
+🔗 **Live Demo:** *https://sisokiki.github.io/resume*  
+📂 **Repository:** https://github.com/sisokiki/resume  
 
 ---
 
 ## 📋 Table of Contents
-
 - [Overview](#overview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
-- [Sections](#sections)
-- [Key Features Explained](#key-features-explained)
+- [Key Sections](#key-sections)
 - [Customization](#customization)
-- [Author](#author)
+- [Deployment](#deployment)
+- [Contact](#contact)
 
 ---
 
 ## 🎯 Overview
 
-This is a professional portfolio website designed to showcase:
-- **Professional Summary**: Focus on Java Backend development and Spring Boot expertise
-- **Technical Skills**: Languages, frameworks, tools, and databases
-- **Project Portfolio**: 5+ projects spanning desktop applications, AI integration, and backend systems
-- **Education & Certifications**: Academic qualifications and professional certifications
-- **Interactive Elements**: Terminal animations, smooth scrolling, and responsive mobile design
+This portfolio website highlights:
 
-The portfolio employs a **dark theme** with **emerald accents** and modern glassmorphism design patterns for a contemporary look.
+- 💼 Java Backend Development (Spring Boot, JPA, Hibernate)
+- 🛠️ Technical Skills & Tools
+- 📂 Real-world Projects
+- 🎓 Education & Certifications
+- ⚡ Interactive UI with animations
+
+Built with a **dark theme + glassmorphism UI** for a modern developer-focused experience.
 
 ---
 
 ## ✨ Features
 
-### 🎨 Design & UX
-- **Responsive Design**: Fully optimized for mobile, tablet, and desktop
-- **Dark Theme**: Eye-friendly dark interface with emerald (#10b981) accent colors
-- **Glassmorphism**: Modern glass-like UI elements with backdrop blur effects
-- **Smooth Animations**: Terminal typing effects, fade-ins, and hover transitions
-- **Mobile Menu**: Hamburger menu with smooth slide-down animation
+### 🎨 Design
+- Fully responsive (Mobile → Desktop)
+- Dark UI with emerald accents (`#10b981`)
+- Glassmorphism effects (blur + transparency)
+- Smooth animations and transitions
 
-### 📱 Interactive Elements
-- **Terminal Animation**: Simulated terminal output with typing effects and command execution
-- **Scroll-to-Top Button**: Floating button for quick navigation (appears after scrolling)
-- **Smooth Navigation**: Anchor links with smooth scroll behavior
-- **Logo Navigation**: Click logo to return to top
-- **Mobile-Friendly Menu**: Auto-closes after navigation
+### ⚡ Interactivity
+- Terminal-style typing animation
+- Smooth scrolling navigation
+- Scroll-to-top button
+- Mobile-friendly hamburger menu
 
-### 📊 Portfolio Sections
-1. **About/Header**: Eye-catching introduction with career transition narrative
-2. **Skills**: Organized skill categories (Languages, Frameworks, APIs, Tools)
-3. **Projects**: 5 featured projects with descriptions, tech stacks, and links
-4. **Education**: Academic timeline with institutions and grades
-5. **Certifications**: Professional certifications from Coursera and LinkedIn
-6. **Footer**: Contact information and social links
+### 📊 Sections Included
+- About / Hero
+- Skills
+- Projects
+- Education
+- Certifications
+- Contact Footer
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Component | Technology |
-|-----------|-----------|
-| **Markup** | HTML5 |
-| **Styling** | CSS3 + Tailwind CSS (CDN) |
-| **Scripting** | Vanilla JavaScript (ES6+) |
-| **Icons** | Font Awesome 6.0.0 |
-| **Fonts** | Google Fonts (Fira Code, Plus Jakarta Sans) |
-
-### Language Composition
-- **HTML**: 76.7% - Structure and semantic markup
-- **CSS**: 17.3% - Styling and animations
-- **JavaScript**: 6% - Interactivity and animations
+| Category | Technology |
+|--------|-----------|
+| Markup | HTML5 |
+| Styling | CSS3, Tailwind CSS |
+| Scripting | JavaScript (ES6) |
+| Icons | Font Awesome |
+| Fonts | Google Fonts |
 
 ---
 
 ## 📁 Project Structure
 
 ```
+
 resume/
-├── index.html                  # Main HTML file
-├── style.css                   # Custom CSS styles
-├── script.js                   # JavaScript functionality
-├── img.png                     # Profile image
-├── Souvik_Mishra_March_2026.pdf # Resume PDF
-└── README.md                   # This file
-```
+├── index.html
+├── style.css
+├── script.js
+├── img.png
+├── Souvik_Mishra_March_2026.pdf
+└── README.md
 
-### File Descriptions
-
-| File | Purpose |
-|------|---------|
-| `index.html` | Main structure with semantic HTML5 sections |
-| `style.css` | Custom styling including responsive media queries |
-| `script.js` | Terminal animation, smooth scroll, mobile menu logic |
-| `img.png` | Profile photograph displayed in terminal window |
-| `Souvik_Mishra_March_2026.pdf` | Downloadable resume (31.3 KB) |
+````
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
-- A modern web browser (Chrome, Firefox, Safari, Edge)
-- No server required - runs entirely client-side
+### Clone the repo
+```bash
+git clone https://github.com/sisokiki/resume.git
+cd resume
+````
 
-### Installation
+### Run locally
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/sisokiki/resume.git
-   cd resume
-   ```
+```bash
+python -m http.server 8000
+```
 
-2. **Open in browser**
-   - Double-click `index.html`, or
-   - Use a local server:
-     ```bash
-     python -m http.server 8000
-     # Then visit http://localhost:8000
-     ```
-
-3. **View live** (if deployed to GitHub Pages)
-   - The site includes GitHub Pages configuration
+Open: [http://localhost:8000](http://localhost:8000)
 
 ---
 
-## 📑 Sections Breakdown
+## 📑 Key Sections
 
-### 1. **Navigation Bar** (`navbar`)
-- Fixed positioning with blur backdrop
-- Responsive hamburger menu (mobile)
-- Quick access to all sections
-- "Connect" button linking to email
+### 🧑‍💻 Hero
 
-```html
-Navigation Links:
-├── About
-├── Skills  
-├── Projects
-├── Education
-├── Certifications
-└── Connect (mailto)
-```
+* Introduction + summary
+* CTA buttons (Resume, GitHub, LinkedIn)
+* Terminal animation
 
-### 2. **Hero Section** (`#about`)
-- Welcome heading with gradient text
-- Professional summary
-- Career transition visualization
-- CTA buttons (Resume, GitHub, LinkedIn, LeetCode)
-- Terminal-style profile window with animations
+### 🛠️ Skills
 
-### 3. **Skills Section** (`#skills`)
-- **Languages**: Java, Python, SQL, C
-- **Frameworks & Libraries**: Spring Boot, Spring Data JPA, Hibernate, Java Swing, etc.
-- **Web & APIs**: REST API, Postman, Maven, JSON
-- **Tools & Databases**: MySQL, PostgreSQL, MongoDB, IntelliJ IDEA, Git
+* Java, Python, SQL
+* Spring Boot, Hibernate
+* MySQL, MongoDB
+* Git, Postman
 
-### 4. **Projects Section** (`#projects`)
+### 📂 Projects
 
-#### Featured Projects:
-1. **AI-Powered ATS (CV Scorer)**
-   - AI-driven CV analysis and scoring
-   - Gap analysis and recommendations
-   - Stack: Java, Spring Boot, AI Integration
+* AI-Powered ATS (CV Scorer)
+* Library Management System
+* Quiz REST API
+* University Management System
+* To-Do App (Python)
 
-2. **Library Management System**
-   - Desktop application for library operations
-   - CRUD operations with MDI interface
-   - Stack: Java Swing, MySQL, JDBC, FlatLaf
+### 🎓 Education
 
-3. **Quiz Application**
-   - Backend quiz engine with REST APIs
-   - Efficient data persistence
-   - Stack: Java, Spring Boot, Spring Data JPA, Hibernate
+* B.Tech (CSE) – 2026
+* Diploma – 2023
 
-4. **University Management System**
-   - Comprehensive student/faculty data management
-   - Leave and fee management modules
-   - Stack: Java Swing, MySQL, JDBC, FlatLaf
+### 📜 Certifications
 
-5. **To-Do List App**
-   - Desktop task management application
-   - Local storage functionality
-   - Stack: Python, Tkinter
-
-### 5. **Education Section** (`#education`)
-- **B.Tech in CSE** - RCC Institute of Information Technology (2026, CGPA: 7.41)
-- **Diploma in CST** - Dr. Meghnad Saha Institute of Technology (2023, OGPA: 8.7)
-- **Higher Secondary** - Maliara R.N. High School (2020, 80.2%)
-- **Secondary (10th)** - Maliara R.N. High School (2018, 74.28%)
-
-### 6. **Certifications Section** (`#certifications`)
-- Introduction to Java as a Second Language (Coursera)
-- Writing Java Application Code (Coursera)
-- The Java Language (Coursera)
-- Google Ads for Beginners (Coursera)
-- Python for Data Science, AI & Development (Coursera)
-- Generative AI (Microsoft/LinkedIn)
-
-### 7. **Footer**
-- Contact information (email, phone)
-- Social media links (GitHub, LinkedIn, Credly)
-- Languages spoken
-- Personal interests
-- Copyright notice
+* Java (Coursera)
+* Python for Data Science
+* Generative AI
 
 ---
 
-## 🎬 Key Features Explained
+## 🎬 Key Features
 
-### Terminal Animation (`script.js`)
-```javascript
-// Simulates terminal command typing and output
-- Types command character by character
-- Shows deployment status log with Spring Boot ASCII art
-- Reveals profile image with fade animation
-- Creates immersive "developer" aesthetic
-```
+### 💻 Terminal Animation
 
-### Responsive Design
-- **Desktop**: 2-column layouts, full navigation bar
-- **Tablet**: Adjusted grid layouts, optimized spacing
-- **Mobile**: Single-column layouts, hamburger menu, full-width buttons
+* Simulates command typing
+* Displays output dynamically
+* Creates developer-style UI
 
-### Glassmorphism Effects
-- Frosted glass backgrounds with `backdrop-filter: blur()`
-- Transparent overlays for depth
-- Subtle borders and shadows
+### 📱 Responsive Design
 
-### Color Scheme
-- **Primary Dark**: `#020617` (Background)
-- **Accent Color**: `#10b981` (Emerald - CTA, highlights)
-- **Secondary**: `#3b82f6` (Blue - gradient)
-- **Text**: `#cbd5e1` to `#ffffff` (Light slate to white)
+* Desktop → 2-column layout
+* Mobile → Single column
+
+### 🎨 UI Design
+
+* Glassmorphism cards
+* Gradient highlights
+* Accessible color contrast
 
 ---
 
 ## 🎨 Customization
 
-### Changing Profile Information
-Edit `index.html`:
-```html
-<!-- Update name and title -->
-<h1 class="text-6xl font-black text-white mb-2">
-  Java <span class="gradient-text">Backend</span><br />
-  <span class="gradient-text">Developer.</span>
-</h1>
+### Edit Profile
 
-<!-- Update summary paragraph -->
-<p class="text-lg text-slate-400">
-  Your custom summary here...
-</p>
+```html
+<h1>Your Name</h1>
+<p>Your summary</p>
 ```
 
-### Updating Projects
-Find the `#projects` section and modify card content:
-```html
-<h3 class="text-2xl font-bold text-white mb-3">
-  Your Project Title
-</h3>
-<ul class="text-slate-400 text-sm">
-  <li>Your project description</li>
-</ul>
-```
+### Change Colors
 
-### Changing Colors
-Edit `style.css` to modify accent colors:
 ```css
-.logo-text { color: #10b981; } /* Change to preferred color */
-.gradient-text { 
-  background: linear-gradient(to right, #YOUR_COLOR, #OTHER_COLOR);
-}
+.logo-text { color: #10b981; }
 ```
 
-### Adding Social Links
-Update footer section:
-```html
-<a href="https://your-social-link" target="_blank">
-  <i class="fab fa-icon"></i>
-</a>
-```
+### Update Projects
 
----
-
-## 📱 Browser Support
-
-| Browser | Support |
-|---------|---------|
-| Chrome | ✅ Full |
-| Firefox | ✅ Full |
-| Safari | ✅ Full |
-| Edge | ✅ Full |
-| IE 11 | ❌ Not supported (modern ES6+) |
-
----
-
-## 🔧 Development Tips
-
-### Local Development Server
-```bash
-# Python 3
-python -m http.server 8000
-
-# Python 2
-python -m SimpleHTTPServer 8000
-
-# Node.js
-npx http-server
-
-# Live Server (VS Code extension)
-# Install and right-click index.html → "Open with Live Server"
-```
-
-### Testing Responsiveness
-- Use browser DevTools (`F12`)
-- Toggle Device Toolbar (`Ctrl+Shift+M`)
-- Test at: 320px, 768px, 1024px, 1440px
-
-### Accessibility
-- Semantic HTML5 used throughout
-- ARIA labels on interactive elements
-- Keyboard navigation support
-- Color contrast ratios meet WCAG standards
-
----
-
-## 📚 Dependencies
-
-All dependencies are loaded via CDN:
-
-1. **Tailwind CSS** (v3) - CSS framework
-   ```html
-   <script src="https://cdn.tailwindcss.com"></script>
-   ```
-
-2. **Font Awesome 6.0.0** - Icon library
-   ```html
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-   ```
-
-3. **Google Fonts** - Typography
-   - Fira Code (monospace)
-   - Plus Jakarta Sans (sans-serif)
+Edit the `#projects` section in `index.html`
 
 ---
 
 ## 🚀 Deployment
 
 ### GitHub Pages
-1. Push to GitHub repository
-2. Go to Settings → Pages
-3. Select `main` branch as source
-4. Site will be available at `https://username.github.io/resume`
 
-### Netlify
-1. Connect GitHub repository
-2. Build command: (leave empty for static site)
-3. Publish directory: `.` (root)
-4. Deploy
+* Go to **Settings → Pages**
+* Select `main` branch
 
 ### Other Platforms
-Works on any static hosting:
-- Vercel
-- Firebase Hosting
-- AWS S3
-- CloudFlare Pages
+
+* Netlify
+* Vercel
+* Firebase
+* AWS S3
 
 ---
 
-## 📝 Resume Content
+## 📱 Browser Support
 
-**Professional Focus:**
-- Java Backend Development
-- Spring Boot & Spring Data JPA
-- REST APIs & Microservices
-- Database Design (MySQL, PostgreSQL, MongoDB)
-- Desktop Application Development (Java Swing)
-
-**Key Strengths:**
-- Full-stack solutions (desktop to cloud)
-- Core Java expertise
-- Enterprise application architecture
-- Database optimization and JDBC
-- AI/ML integration basics
+| Browser | Support |
+| ------- | ------- |
+| Chrome  | ✅       |
+| Firefox | ✅       |
+| Edge    | ✅       |
+| Safari  | ✅       |
 
 ---
 
 ## 📞 Contact
 
-- **Email**: bitmishra00054@gmail.com
-- **Phone**: +91 9382398038
-- **Location**: Maliara, West Bengal, India
-- **LinkedIn**: [linkedin.com/in/souvik-mishra](https://www.linkedin.com/in/souvik-mishra)
-- **GitHub**: [github.com/sisokiki](https://github.com/sisokiki)
-- **LeetCode**: [leetcode.com/u/sisokiki/](https://leetcode.com/u/sisokiki/)
+* 📧 Email: [bitmishra00054@gmail.com](mailto:bitmishra00054@gmail.com)
+* 📱 Phone: +91 9382398038
+* 📍 West Bengal, India
+* 💼 LinkedIn: [https://linkedin.com/in/souvik-mishra](https://linkedin.com/in/souvik-mishra)
+* 💻 GitHub: [https://github.com/sisokiki](https://github.com/sisokiki)
+* 🧠 LeetCode: [https://leetcode.com/u/sisokiki/](https://leetcode.com/u/sisokiki/)
 
 ---
 
 ## 📄 License
 
-This project is open source and available under the MIT License. Feel free to fork, modify, and use as template for your own portfolio!
+Licensed under the **MIT License**.
 
 ---
 
-## ✨ Features Coming Soon
+## ✨ Future Improvements
 
-- [ ] Dark/Light theme toggle
-- [ ] Blog section
-- [ ] Experience/Work history timeline
-- [ ] Skills progress bars
-- [ ] Project filtering by technology
-- [ ] Contact form integration
-- [ ] PDF generation of resume
+* Dark/Light mode toggle
+* Blog section
+* Experience timeline
+* Skills progress bars
+* Contact form
 
 ---
 
-## 🙏 Acknowledgments
+💙 Built with passion by **Souvik Mishra**
 
-- **Tailwind CSS** for utility-first CSS framework
-- **Font Awesome** for icon library
-- **Google Fonts** for typography
-- Modern web design principles and best practices
-
----
-
-**Built with ❤️ by Souvik Mishra | 2025-26**
-
-Last Updated: April 30, 2026
+```
+```
